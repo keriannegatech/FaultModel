@@ -1,0 +1,23 @@
+
+package: QuickCheck-2.12.6.1
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+flags: templatehaskell
+dependencies: base-4.11.1.0 containers-0.5.11.0 deepseq-1.4.3.0
+              erf-2.0.0.0 random-1.1 template-haskell-2.13.0.0 tf-random-0.5
+              transformers-0.5.5.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
+
+package: erf-2.0.0.0
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: base-4.11.1.0
+install-outcome: InstallOk
+docs-outcome: Ok
+tests-outcome: NotTried
